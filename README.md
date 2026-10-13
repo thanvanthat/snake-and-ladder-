@@ -48,7 +48,9 @@ Then open http://localhost:5173.
 
 The repo includes `vercel.json` (framework `vite`, build `npm run build`, output `dist`, SPA rewrite).
 
-**Dashboard:** push the project to GitHub → Vercel → *Add New Project* → import the repo → keep the detected settings → *Deploy*.
+**Auto-deploy (set up for this repo):** the Vercel project is connected to this GitHub repository. Every push to `main` deploys to production at https://snakes-and-ladders-3d-psi.vercel.app, and pushes to other branches or pull requests get their own preview URL.
+
+**Dashboard (for a fresh fork):** push the project to GitHub → Vercel → *Add New Project* → import the repo → keep the detected settings → *Deploy*.
 
 **CLI:**
 
